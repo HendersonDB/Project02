@@ -1,0 +1,94 @@
+html {
+	background-color: black;
+	overflow-x: hidden;
+}
+body {
+	background-color: black;
+	font-family: "Lucida Console", 'Courier New', Courier, monospace;
+	overflow: hidden;
+}
+h1 {
+	color: white;
+}
+.col-6 {
+	margin: auto;
+	position: relative;
+}
+#user-limit {
+	margin-top: 10px;
+	border-radius: 20px;
+	text-align: center;
+	border-color: black;
+	border-width: 3px;
+	color: black;
+	font-weight: bold;
+}
+#user-search {
+	border-radius: 20px;
+	text-align: center;
+	border-color: black;
+	border-width: 3px;
+	color: black;
+	font-weight: bold;
+}
+#submit {
+	border-radius: 20px;
+	border-color: black;
+	border-width: 3px;
+	color: black;
+	margin-top: 10px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	position: relative;
+	margin: auto;
+}
+.search-bar {
+	margin-bottom: 1%;
+}
+.navbar {
+	font-size: 20px;
+	font-family: "Lucida Console", 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+.navbar-brand {
+	font-weight: bold;
+	font-family: "Lucida Console", 'Courier New', Courier, monospace;
+}
+a.nav-link {
+	margin-left: 50px;
+}
+.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			&:hover {
+				color: pink;
+			}
+		}
+	}
+}
+#results {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: wrap;
+	padding: 10px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.gif-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px;
+}
+.jumbotron {
+	border-radius: 0;
+	padding: 3rem 0 2rem;
+	margin-bottom: 0;
+}
+h3 {
+	color: white;
+}

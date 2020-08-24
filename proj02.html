@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giphy Search Engine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" style="color:white;" href="#">Giphy Search Engine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Search</a>
+						</li>
+						
+						
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						
+					
+
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact Us</a>
+						</li>
+					</ul>
+                </div>   
+           
+            </ul>
+    </nav>
+    <div class="jumbotron bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="title-search-bar">
+
+                        <div id="buttons"></div>
+                        <div class="search-bar">
+                            
+                            <input type="text" name="query" id="user-search" onfocus="this.value=''" value="Search" />
+                            <input type="text" name="query" id="user-limit" onfocus="this.value=''" value="GIF Limit" />
+                            <input id="submit" type="button" value="Submit" class="btn  btn-sm btn-success" />
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+
+                <div id="results"></div>
+                
+            </div>
+
+
+        </div>
+    </div>
+    
+    
+    
+    
+    
+
+
+
+
+</body>
+
+</html>
